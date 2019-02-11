@@ -6,6 +6,7 @@
 .header-topcontainer {
     display: flex;
     flex-direction: column;
+    padding: 1em;
 }
 
 h1 {
@@ -28,6 +29,7 @@ h1 span {
 } 
 
 img {
+    padding: 5px;
     width: 75px;
     height: auto;
 }

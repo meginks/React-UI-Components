@@ -1,3 +1,7 @@
 footer {
     font-size: 20px;
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+    width: 70%;
 }
