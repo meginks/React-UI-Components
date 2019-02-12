@@ -1,1 +1,47 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    display: flex;
+}
+
+.header-topcontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 1.5em;
+}
+
+h1 em {
+    font-style: none;
+    text-decoration: none;
+} 
+
+h1 span {
+    font-style: none;
+    text-decoration: none;
+} 
+
+.headerContent {
+    margin-top: -20px;
+} 
+
+img {
+    padding: 5px;
+    width: 75px;
+    height: auto;
+}
+
+.headerTitle {
+    display: flex; 
+} 
+
+.titleElement {
+    margin-right: 10px;
+}
+
+h3 {
+    color: gray;
+}

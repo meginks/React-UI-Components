@@ -1,1 +1,26 @@
 /* All styles for your Card Components live here */
+
+.cardContainer {
+    display: flex;
+    width: 98%;
+    margin-left: 75px;
+    margin-right: 5px;
+    padding: 10px;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.cardBanner {
+    background-image: url(https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png);
+    max-width: 1100px;
+    height: 500px;
+    padding: 10px;
+    margin: 10px;
+    background-position: center;
+    text-align: center;
+} 
+
+a {
+    text-decoration: none;
+    color: black;
+}
