@@ -1,8 +1,75 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
-h3 {
-  color: red;
+.number {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  margin: 1px;
+}
+.number-row {
+  display: flex;
+  width: 100%;
+}
+.number-button {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+.number-box {
+  width: 300px;
+}
+.operator-box {
+  width: 100px;
+}
+.operator {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+}
+.clear-button {
+  width: 90px;
+  text-align: center;
+}
+.operator {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: white;
+}
+.calculator-display {
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: flex-end;
+  flex-wrap: nowrap;
+}
+.calculator-box {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.button-box {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+.left-half {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.right-half {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
 }

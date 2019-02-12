@@ -1,37 +1,5 @@
 import React from 'react';
 import Number from './Number';
-import Operator from './Operator';
-
-// NUMBERS 
-const ClearButton = {
-    name: "clear",
-    symbol: "clear"
-};
-
-const DivideButton = {
-    name: "divide", 
-    symbol: "&#247"
-};
-
-const MultiplyButton = {
-    name: "multiply", 
-    symbol: "x"
-};
-
-const SubtractButton = {
-    name: "subtract",
-    symbol: "-"
-};
-
-const AddButton = {
-    name: "add",
-    symbol: "+"
-};
-
-const EqualsButton = {
-    name: "equals", 
-    symbol: "="
-};
 
 // NUMBERS 
 
@@ -54,15 +22,19 @@ const Six = {
     number: 6
 };
 const Seven = {
+    name: 7,
     number: 7
 };
 const Eight = {
+    name: 8,
     number: 8
 };
 const Nine = {
+    name: 9,
     number: 9
 };
 const Zero = {
+    name: 0,
     number: 0
 };
 

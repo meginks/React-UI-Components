@@ -3,7 +3,7 @@ import Button from './Button';
 
 const Operator = props => {
     return (
-        <Button symbol={props.symbol} />
+        <Button className="operator-button" name={props.symbol} />
     );
 };
 

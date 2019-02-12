@@ -3,9 +3,7 @@ import Button from './Button';
 
 const Number = props => {
     return (
-        <div className="number-button">
-        <Button number={props.number} />
-        </div>
+        <Button className="number-button" name={props.number} />
     );
 };
 
