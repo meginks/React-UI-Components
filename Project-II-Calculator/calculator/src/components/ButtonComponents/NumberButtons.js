@@ -57,8 +57,8 @@ const NumberButtons = () =>
         <Number number={Two.number} />
         <Number number={Three.number} />
         </div>
-        <div className="number-row">
-        <Number number={Zero.number} />
+        <div>
+        <Number className="number-row" number={Zero.number} />
         </div>
         </div>
     );

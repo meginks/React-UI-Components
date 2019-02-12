@@ -1,30 +1,28 @@
 @import "global.less";
-@import "numbers.less";
-@import "operators.less";
-@import "display.less";
+@import "button.less";
 
 .calculator-box {
-    margin: 20px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    width: 400px;
-}
-
-
-.button-box {
-    display: flex;
-    flex-direction: row;
-    width: 300px;
-}
-
-.left-half {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-}
-
-.right-half {
+    .button-box {
+        display: flex;
+        .number-side {
+            display: flex;
+            flex-direction: column;
+        .number-row {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        }
+    }
+    .operator-side {
     display: flex;
     flex-direction: column;
-    width: 100px;
+    }
 }
+
+
+
+
