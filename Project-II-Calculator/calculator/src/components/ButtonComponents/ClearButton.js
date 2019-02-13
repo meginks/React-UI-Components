@@ -1,15 +1,15 @@
 import React from 'react';
-import Button from './Button';
-
 
 const Clear = {
     name: "clear",
     symbol: "clear"
 }; 
 
-const ClearButton = () => {
+const ClearButton = props => {
     return (
-        <Button className="clear-button" name={Clear.name} />
+        <button className="clear-button">
+            {props.name}
+        </button>
     );
 };
 

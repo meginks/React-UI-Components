@@ -42,24 +42,24 @@ const NumberButtons = () =>
 {
     return (
         <div className="numberPad">
-        <div className="number-row">
-        <Number number={Seven.number} />
-        <Number number={Eight.number} />
-        <Number number={Nine.number} />
-        </div>
-        <div className="number-row">
-        <Number number={Four.number} />
-        <Number number={Five.number} />
-        <Number number={Six.number} />
-        </div>
-        <div className="number-row">
-        <Number number={One.number} />
-        <Number number={Two.number} />
-        <Number number={Three.number} />
-        </div>
-        <div>
-        <Number className="number-row" number={Zero.number} />
-        </div>
+            <div className="number-row">
+                <Number number={Seven.number} />
+                <Number number={Eight.number} />
+                <Number number={Nine.number} />
+            </div>
+            <div className="number-row">
+                <Number number={Four.number} />
+                <Number number={Five.number} />
+                <Number number={Six.number} />
+            </div>
+            <div className="number-row">
+                <Number number={One.number} />
+                <Number number={Two.number} />
+                <Number number={Three.number} />
+            </div>
+            <div className="number-row">
+                <Number class="zero-button" number={Zero.number} />
+            </div>
         </div>
     );
 };

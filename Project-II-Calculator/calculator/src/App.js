@@ -6,7 +6,7 @@ import SideOperatorButtons from './components/ButtonComponents/SideOperatorButto
 import './css/index.css';
 const App = () => {
   return (
-    <div class="calculator-box">
+    <div className="calculator-box">
     <Display />
     <div className="button-box">
     <div className="number-side">

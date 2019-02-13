@@ -9,12 +9,17 @@ body {
 button {
   width: 100%;
 }
-.number-button .button button {
-  background-color: white;
+.number-button {
+  background-color: blue;
   color: black;
 }
-.operator-side .operator-column .operator-button .button button {
+.numberPad .number-row .zero-button {
+  width: 100%;
   background-color: red;
+  color: blue;
+}
+.clear-button {
+  width: 100%;
 }
 .calculator-box {
   width: 100%;
